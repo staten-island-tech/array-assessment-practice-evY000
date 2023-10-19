@@ -83,7 +83,10 @@ const titles = [
   "Great Expectations",
   "Little Women",
 ];
-
+const filter = books.filter((name) => books.name)
+books.forEach((name) => {console.log(filter)
+  
+});
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
 
