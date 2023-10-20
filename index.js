@@ -70,7 +70,7 @@ const books = [
     genre: ["womens", "historical", "fiction"],
   },
 ];
-
+const publish = [books.filter((book) => return publishDate <1900]
 const titles = [
   "To Kill a Mockingbird",
   "The Great Gatsby",
@@ -83,10 +83,12 @@ const titles = [
   "Great Expectations",
   "Little Women",
 ];
-const filter = books.filter((name) => books.name)
-books.forEach((name) => {console.log(filter)
-  
-});
+
+function thing(publishDate) {
+  return publishDate < 1900;
+}
+const thingy = books.filter(thing);
+thingy
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
 
