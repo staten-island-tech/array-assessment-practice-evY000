@@ -82,12 +82,10 @@ const titles = [
   "Great Expectations",
   "Little Women",
 ];
-const historicalbooks = books.forEach((fart)=>{
-  console.log(fart.genre.includes("historical"))
-});
+const thingy = books.forEach((element) => console.log(element.authorFirst));
+console.log(thingy)
+  
 
-
-console.log(historicalbooks);
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
 
